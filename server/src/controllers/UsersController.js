@@ -79,4 +79,3 @@ class UsersController {
 }
 
 module.exports = UsersController;
->>>>>>> main
