@@ -1,8 +1,6 @@
-require('dotenv-safe').config();
-
 module.exports = {
   jwt: {
-    secret: process.env.SECRET,
+    secret: process.env.SECRET || 'default',
     expiresIn: '1d',
   },
 };
