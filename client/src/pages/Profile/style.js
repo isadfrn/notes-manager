@@ -16,6 +16,11 @@ export const Container = styled.div`
       color: ${({ theme }) => theme.COLORS.GRAY_100};
       font-size: 24px;
     }
+
+    button {
+      background: none;
+      border: none;
+    }
   }
 `;
 
@@ -39,6 +44,7 @@ export const Avatar = styled.div`
     width: 186px;
     height: 186px;
     border-radius: 50%;
+    object-fit: cover;
   }
 
   > label {
