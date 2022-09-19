@@ -6,7 +6,7 @@
 
 ## About
 
-Full-stack application for manage notes and classify them with tags.
+Full-stack application for managing notes and classifying them with tags.
 
 ## Run
 
